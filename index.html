@@ -1,4 +1,190 @@
 <!DOCTYPE html>
 <html>
-    <h1>Hi</h1>
+    <head>
+        <title>Product Landing page</title>
+    </head>
+    <!--1st Section-->
+    <body id="body">
+    <section id="header">
+      <nav id=nav-bar>
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <section id="title-section">
+        <h1 class="heading">Hire A<br>Lawyer<br> <section id="button">
+        <button class="button">Read More</button>
+          
+        
+      </section></h1>
+          <section id="image-section">
+        <img id="1st-image" class="image" src="https://wallpaperaccess.com/full/673238.jpg"></section>
+      </section> 
+    </section>
+      
+    
+    <!--2nd Section-->
+      <div id="second-section">
+        
+        
+        <div>
+    
+    </body>
 </html>
+<style>
+    #body{
+  margin:0 auto;
+}
+#header{
+  max-width:100%;
+  height:600px;
+  background-color: rgb(156, 8, 38);
+  padding-top:0;
+  justify-content:center;
+  margin: 0;
+  
+}
+@media (max-width: 400px) {
+  #header{
+    height:350px;
+    width:100%;
+    margin: 0;
+  }
+}
+
+#nav-bar{
+  left:0;
+  top:0;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  justify-content: flex-end;
+  z-index: 10;
+  width:100%;
+  height:80px;
+  background-color:rgb(46, 36, 38);
+  color:white;
+  padding-top:0px;
+  margin-top:0;
+ 
+}
+@media (max-width: 400px) {
+  #nav-bar{
+    height:40px;
+  }
+}
+li{
+  list-style:none;
+  padding:20px;
+  font-size:25px; 
+}
+@media (max-width: 400px) {
+  li{
+    padding:10px;
+    font-size:15px;
+    width:100%;
+  }
+}
+a{
+  text-decoration:none;
+  color:white;
+}
+a:hover{
+  background-color:green;  
+}
+
+ul{
+  display:flex;
+}
+#title-section{
+  font-size:70px;
+  padding-left:200px;
+  display:flex; 
+}
+@media (max-width: 400px) {
+  #title-section{
+    font-size:30px;
+    padding-left:20px;
+  }
+}
+.button{
+  height:50px;
+  width:140px;
+  font-size:20px;
+  font-weight:bold;
+  background-color:rgb(46, 36, 38, 0.3);
+  display:inline-block;
+  
+  
+ 
+}
+@media (max-width: 400px) {
+  .button{
+    font-size:20px;
+    height:25px;
+    width:70px;
+    font-size:10px;
+    margin-top:20px;
+  }
+}
+#button{
+   padding-left:0px;
+  padding-bottom:300px;
+  
+}
+@media (max-width: 400px) {
+  #button{
+    padding-left:0px;
+  padding-bottom:150px;
+  }
+}
+.image{
+  height:600px;
+  width:600px;
+   border: 10px solid white;
+  border-radius:50%;   
+}
+@media (max-width: 400px) {
+  .image{
+   height:200px;
+    width:200px;
+    border:5px solid white;
+    border-radius:50%;
+    margin-top:130px;
+    margin-left:0px;
+    margin-right:0px;
+    width:100%;
+   
+  }
+}
+
+.heading{
+  width:700px;
+}
+@media (max-width: 400px) {
+  .heading{
+   width:350px;
+   
+  }
+}
+
+
+#image-section{
+  padding-left:00px;
+  padding-top:50px;
+  padding-right:50px;
+  
+}
+@media (max-width: 400px) {
+  #image-section{
+   padding:0px;
+  padding-top:20px;
+  padding-right:20px;
+  }
+}
+#second-section{
+  width:100%;
+  height:600px;
+  background-color: white;
+}
+</style>
